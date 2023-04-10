@@ -1,0 +1,18 @@
+form {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .name {
+    flex-grow: 0;
+    flex-basis: 120px;
+  }
+  .email {
+    flex-grow: 3;
+    flex-basis: 170px;
+  }
+  button {
+    flex-grow: 0;
+    flex-basis: 70px;
+  }
